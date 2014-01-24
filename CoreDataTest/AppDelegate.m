@@ -10,9 +10,19 @@
 
 @implementation AppDelegate
 
++ (void)initialize
+{
+    /**
+     *  Setup sqlite database, default sqlite name would be
+     *  the project name with extend name, sqlite
+     */
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"CoreDataTest.sqlite"];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self initLocationManager];
     return YES;
 }
 							
@@ -41,6 +51,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [self releaseLocationManager];
+    [MagicalRecord cleanUp];
 }
-
+-(void)initLocationManager{
+    self.myCLLManager = [[CLLocationManager alloc]init];
+    [self.myCLLManager setDelegate:self];
+    [self.myCLLManager setDistanceFilter:kCLDistanceFilterNone];
+    [self.myCLLManager startUpdatingLocation];
+}
+-(void)releaseLocationManager{
+    [self.myCLLManager stopUpdatingLocation];
+    [self.myCLLManager setDelegate:nil];
+    [self setMyCLLManager:nil];
+}
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+    CLLocation *location = [locations lastObject];
+    self.myLocation = location.coordinate;
+}
+-(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
+    NSLog(@"%@", [error localizedDescription]);
+    CLLocationCoordinate2D zero;
+    zero.latitude = 0;
+    zero.longitude= 0;
+    self.myLocation= zero;
+}
 @end
+

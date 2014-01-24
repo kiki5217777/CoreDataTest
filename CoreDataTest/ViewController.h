@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
+#import "UserDetail.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+    
+@property (strong, nonatomic) IBOutlet UITextField *signinUserID;
 
 @end

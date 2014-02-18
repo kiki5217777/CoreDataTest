@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CoreDataTest
+
+  Created by kiki Huang on 2014/2/18.
+  Copyright (c) 2014年 kiki Huang. All rights reserved.
+*/
+"TitleLabel" = "核心資料測試";
+"AlertTitle" = "錯誤";
+"AlertMsg" = "尚未註冊用戶，請註冊帳號";
+"AlertCancelBtnTitle" = "確定";

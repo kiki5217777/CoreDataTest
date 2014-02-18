@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CoreDataTest
+
+  Created by kiki Huang on 2014/2/18.
+  Copyright (c) 2014年 kiki Huang. All rights reserved.
+*/
+"TitleLabel" = "Core Data Test";
+"AlertTitle" = "Error";
+"AlertMsg" = "Not registered user,please register";
+"AlertCancelBtnTitle" = "ok";

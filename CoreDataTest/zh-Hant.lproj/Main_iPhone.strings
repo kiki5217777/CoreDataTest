@@ -1,0 +1,59 @@
+/* Class = "IBUILabel"; text = "Birthday"; ObjectID = "10h-oN-rTp"; */
+"10h-oN-rTp.text" = "生日";
+
+/* Class = "IBUILabel"; text = "Phone1"; ObjectID = "2Gt-NE-Gkd"; */
+"2Gt-NE-Gkd.text" = "號碼一";
+
+/* Class = "IBUILabel"; text = "Address2"; ObjectID = "5q7-HE-chx"; */
+"5q7-HE-chx.text" = "地址二";
+
+/* Class = "IBUILabel"; text = "Address1"; ObjectID = "8Jz-pu-WFS"; */
+"8Jz-pu-WFS.text" = "地址一";
+
+/* Class = "IBUIButton"; normalTitle = "送出"; ObjectID = "9XD-p6-Yex"; */
+"9XD-p6-Yex.normalTitle" = "送出";
+
+/* Class = "IBUILabel"; text = "ID :"; ObjectID = "CiI-Sv-wx4"; */
+"CiI-Sv-wx4.text" = "帳號 :";
+
+/* Class = "IBUILabel"; text = "男"; ObjectID = "F3E-vP-iLs"; */
+"F3E-vP-iLs.text" = "男";
+
+/* Class = "IBUILabel"; text = "ID"; ObjectID = "Gil-ba-RfF"; */
+"Gil-ba-RfF.text" = "帳號";
+
+/* Class = "IBUIButton"; normalTitle = "頁面控制頁"; ObjectID = "JM0-p1-blD"; */
+"JM0-p1-blD.normalTitle" = "頁面控制頁";
+
+/* Class = "IBUILabel"; text = "Phone2"; ObjectID = "Lep-Es-XUF"; */
+"Lep-Es-XUF.text" = "號碼二";
+
+/* Class = "IBUILabel"; text = "請輸入個人ID"; ObjectID = "g8B-hW-5r4"; */
+"g8B-hW-5r4.text" = "請輸入個人帳號";
+
+/* Class = "IBUIButton"; normalTitle = "搜尋路徑"; ObjectID = "htP-hB-hPb"; */
+"htP-hB-hPb.normalTitle" = "搜尋路徑";
+
+/* Class = "IBUIButton"; normalTitle = "登入"; ObjectID = "l9U-cZ-vFJ"; */
+"l9U-cZ-vFJ.normalTitle" = "登入";
+
+/* Class = "IBUIButton"; normalTitle = "註冊"; ObjectID = "oFP-Sc-X3L"; */
+"oFP-Sc-X3L.normalTitle" = "註冊";
+
+/* Class = "IBUILabel"; text = "Sex"; ObjectID = "qCy-gm-27t"; */
+"qCy-gm-27t.text" = "性別";
+
+/* Class = "IBUIButton"; normalTitle = "地圖"; ObjectID = "qKe-wh-JiZ"; */
+"qKe-wh-JiZ.normalTitle" = "地圖";
+
+/* Class = "IBUITextField"; placeholder = "搜尋或輸入地址"; ObjectID = "qzp-Tj-GHx"; */
+"qzp-Tj-GHx.placeholder" = "搜尋或輸入地址";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "r5M-Xg-Hiq"; */
+"r5M-Xg-Hiq.text" = "性名";
+
+/* Class = "IBUILabel"; text = "女"; ObjectID = "tch-6C-Fpk"; */
+"tch-6C-Fpk.text" = "女";
+
+/* Class = "IBUIButton"; normalTitle = "請選擇生日日期             "; ObjectID = "w54-fu-TPo"; */
+"w54-fu-TPo.normalTitle" = "請選擇生日日期";

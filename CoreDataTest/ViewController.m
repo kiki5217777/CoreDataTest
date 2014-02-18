@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UILabel *laebl = [[UILabel alloc]initWithFrame:CGRectMake(110, 30, 200, 50)];
+    laebl.text =NSLocalizedString(@"TitleLabel", @"This field is Title");
+    [self.view addSubview:laebl];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,7 +41,7 @@
         }
         else{
             
-            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"錯誤" message:@"ID不存在，請註冊個人ID！" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"AlertTitle", @"Show Alert Title") message:NSLocalizedString(@"AlertMsg", @"Show Alert Message") delegate:self cancelButtonTitle:NSLocalizedString(@"AlertCancelBtnTitle", @"Show Alert Cancel Button Title") otherButtonTitles:nil];
             [alert show];
             alert= nil;
             return NO;

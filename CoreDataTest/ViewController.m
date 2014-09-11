@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     UILabel *laebl = [[UILabel alloc]initWithFrame:CGRectMake(110, 30, 200, 50)];
+    laebl.backgroundColor = [UIColor clearColor];
     laebl.text =NSLocalizedString(@"TitleLabel", @"This field is Title");
     [self.view addSubview:laebl];
 }

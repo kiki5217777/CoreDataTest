@@ -36,7 +36,7 @@
     self.delegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"search" style:self.editButtonItem.style target:self action:@selector(searchLocation)];
     [self userLocationInit];
-    /*
+    
     start = [[Annotation alloc]init];
     start.title = @"起點";
     end = [[Annotation alloc]init];
@@ -48,7 +48,7 @@
     [self.myMapRouteView addAnnotation:start];
     [self.myMapRouteView addAnnotation:end];
     [self updateOverlays];
-    */
+    
     //encloseing annotation views on screen
     /*
     MKPointAnnotation *a = [[MKPointAnnotation alloc]init];

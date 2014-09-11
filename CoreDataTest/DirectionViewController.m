@@ -44,7 +44,6 @@
     }
     
     self.pageControl.currentPage =0;
-    
     self.slider.value = 0.0;
     self.slider.minimumValue = 0;
 //    NSLog(@"%f",scrollView1.contentSize.width);

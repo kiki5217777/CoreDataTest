@@ -9,3 +9,4 @@
 "AlertTitle" = "錯誤";
 "AlertMsg" = "尚未註冊用戶，請註冊帳號";
 "AlertCancelBtnTitle" = "確定";
+"CFBundleDisplayName" = "核心";
